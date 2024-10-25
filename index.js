@@ -6,10 +6,7 @@ const dotenv = require('dotenv');
 
 const app = express();
 
-const corsOptions = {
-    origin: '/*',
-    optionsSuccessStatus: 200 // Certaines versions de CORS nécessitent cette option
-};
+
 
 // cors allow cors
 app.use(cors('*'))
