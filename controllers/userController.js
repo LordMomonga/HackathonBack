@@ -1,6 +1,6 @@
 
 const config = require("../config/auth.config.js");
-const User = require("../models/User");
+const User = require("../models/User.js");
 var jwt = require("jsonwebtoken");
 var bcrypt = require("bcryptjs");
 const randomString = require('../utils/randomString');

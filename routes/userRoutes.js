@@ -23,7 +23,7 @@ userRouter.post("/user/signup",[verifyMidleware.verifySignUp.checkDuplicateUsern
 /**
  * For teacher login
  * @api {post} request.
- * @api {Endpoint} /user/login
+ * @api {Endpoint} /user/lgin
  * 
  * @apiSuccess (200) {Object} token, username, email, role, id, status
  * @apiPermission Teacher
